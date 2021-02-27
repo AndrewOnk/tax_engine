@@ -1,0 +1,16 @@
+brackets:
+  - :income_low: 0.00
+    :income_high: 10000.00
+    :max_tax_amount: 0.00
+    :tax: 0
+  - :income_low: 10000.01
+    :income_high: 20000.00
+    :max_tax_amount: 1000.00
+    :tax: 0.1
+  - :income_low: 20000.01
+    :income_high: 50000.00
+    :max_tax_amount: 6000.00
+    :tax: 0.2
+  - :income_low: 50000.01
+    :income_high: 9999999999.99
+    :tax: 0.3
